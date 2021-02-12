@@ -31,6 +31,6 @@ Open - http://127.0.0.1:5000/
 <br></br>
 
 <p>
-  <img src = "/Screenshot (227).png"  />
+  <img src = "/Screenshot (227).png" width='500'></img>
 </p>
 
