@@ -161,7 +161,7 @@ def emergency():
         list_phones = email_object["user_phones"].split(',')
 
         for contacts in list_phones:
-		try:
+        	try:
         		message = "I am "+name+' It is Emergency, Help immediately '+" check my location- "+link
         		msg = client.message_create(name,contacts,message)
         		print(msg.__dict__)
@@ -169,9 +169,8 @@ def emergency():
         	except messagebird.client.ErrorException as e:
         		for error in e.errors:
         			print(error)
-				
-	#SEE YOUR OWN LOCATION
-	return render_template('Location.html')
+        #SEE YOUR OWN LOCATION
+        return render_template('Location.html')
 
 
 
