@@ -1,4 +1,4 @@
-# aatmsuraksha-trial
+# aatmsuraksha
 
 Visit Live APPLICATION - https://aatmsuraksha.herokuapp.com/
 
