@@ -1,0 +1,12 @@
+gunicorn
+numpy == 1.18.0
+pandas
+Flask
+imutils
+werkzeug
+gevent
+pymongo
+dnspython
+messagebird
+requests
+sendgrid
