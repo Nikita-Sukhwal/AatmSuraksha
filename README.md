@@ -18,7 +18,7 @@ Open - http://127.0.0.1:5000/
   <li> SOS Button - Using a Single Button all functionalities will be fulfilled: Call (A voice message will be sent to Helpline nummber), SMS (Location will be sent to trusted contacts, Email (Email will be sent to Trusted Addreses updated by User), See own location on Map</li>
   <li>See Helpline Numbers</li>
   <li>Be aware of Women Rights and Empower</li>
-  <li>Gesture could have been Implemented if it was android app</li>
+  <li>Gesture (Not Implemented)</li>
 </ol>
 
 ## Tech Stack
