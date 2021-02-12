@@ -157,7 +157,7 @@ def emergency():
         for contacts in list_emails:
         	mail.send_email(name,contacts,link)
 	
-	#Sending SMS to stored contacts
+	#Sending SMS to stored contacts but since Testing API Key available only to your own number for now
         list_phones = email_object["user_phones"].split(',')
 
         for contacts in list_phones:
@@ -169,6 +169,14 @@ def emergency():
         	except messagebird.client.ErrorException as e:
         		for error in e.errors:
         			print(error)
+	try:
+		message = "I am "+name+' It is Emergency, Help immediately '+" check my location- "+link
+		msg = client.message_create(name,"+918441025919",message)
+		print(msg.__dict__)
+
+        except messagebird.client.ErrorException as e:
+        	for error in e.errors:
+       			print(error)
         #SEE YOUR OWN LOCATION
         return render_template('Location.html')
 
