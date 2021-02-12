@@ -145,7 +145,7 @@ def emergency():
         client = messagebird.Client(credentials.CALL_API)
         try:
         	voice_message = "I am "+name+' It is Emergency, Help immediately'+" check my location on sms"
-        	msg = client.voice_message_create(credentials.Helpline_no, voice_message,{ 'voice' : 'female' })
+        	msg = client.voice_message_create("+918949303552", voice_message,{ 'voice' : 'female' })
 
         except messagebird.client.ErrorException as e:
         	for error in e.errors:
