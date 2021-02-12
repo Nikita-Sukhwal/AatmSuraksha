@@ -10,5 +10,5 @@ $ python app.py
 Open - http://127.0.0.1:5000/
 
 <p>
-  <img src = "/Screenshot (226).png"  />
+  <img src = "/Screenshot (227).png"  />
 </p>
