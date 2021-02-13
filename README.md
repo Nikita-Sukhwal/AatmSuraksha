@@ -32,6 +32,9 @@ Video Link - https://youtu.be/5O0WamqEA7k
 <br></br>
 
 <p>
+  <img src = "/1.jpg" width='500'></img>
+</p>
+<p>
   <img src = "/Screenshot (227).png" width='500'></img>
 </p>
 
