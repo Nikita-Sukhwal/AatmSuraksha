@@ -25,7 +25,7 @@ Video Link - https://youtu.be/5O0WamqEA7k
 ## Tech Stack
 <ul>
   <li>Frontend - HTML, CSS, JavaScript </li>
-  <li>Backend - Flask </li>
+  <li>Backend - Python, Flask </li>
   <li> Database - MongoDB </li>
 </ul>
 ## Workflow
